@@ -129,11 +129,12 @@ export default function Home() {
           <a href="#services">Services</a>
           <a href="#work">Work</a>
           <a href="#about">About</a>
-          <a href="#contact" className="nav-cta">Work With Me</a>
+          <a href="#contact" className="nav-cta">Start a Project</a>
         </div>
       </nav>
 
       <section id="top" className="hero section-shell">
+        <div className="hero-label">Consulting Portfolio</div>
         <p className="eyebrow">Paid Media · Measurement · Growth Systems</p>
         <h1>Build the system behind profitable growth.</h1>
         <p className="hero-copy">
@@ -141,7 +142,7 @@ export default function Home() {
         </p>
         <div className="hero-actions">
           <a href="#work" className="button primary">View Case Studies</a>
-          <a href="#contact" className="button secondary">Work With Me</a>
+          <a href="#contact" className="button secondary">Start a Project</a>
         </div>
       </section>
 
@@ -157,7 +158,7 @@ export default function Home() {
       <section id="services" className="section-shell section-space">
         <div className="section-heading">
           <p className="eyebrow">What I Do</p>
-          <h2>Growth work is stronger when the media and measurement systems actually talk to each other.</h2>
+          <h2>Media, measurement, and growth should operate as one system.</h2>
         </div>
         <div className="service-grid">
           {services.map((service) => (
@@ -174,7 +175,7 @@ export default function Home() {
           <div className="section-heading split-heading">
             <div>
               <p className="eyebrow">Selected Work</p>
-              <h2>What I have built, fixed, and grown.</h2>
+              <h2>Built, fixed, and grown.</h2>
             </div>
             <p>Case studies across paid acquisition, ecommerce, attribution, tracking, creative systems, and full-funnel growth.</p>
           </div>
@@ -217,7 +218,7 @@ export default function Home() {
         <div className="section-shell ai-grid">
           <div>
             <p className="eyebrow">AI-Powered Marketing Operations</p>
-            <h2>Use AI to make the operating system faster, not sloppier.</h2>
+            <h2>Faster systems. Better decisions.</h2>
           </div>
           <div>
             <p>
@@ -269,9 +270,13 @@ export default function Home() {
         <div className="contact-panel">
           <p className="eyebrow dark">Work With KM & Company</p>
           <h2>Need better paid media performance, cleaner tracking, or a growth system you can actually trust?</h2>
-          <p>For consulting projects, fractional growth support, measurement work, or agency opportunities.</p>
+          <p>Consulting projects, fractional growth support, measurement work, and agency opportunities.</p>
+          <div className="contact-details">
+            <a href="mailto:info@kmandcompany.com">info@kmandcompany.com</a>
+            <a href="tel:+12132937098">(213) 293-7098</a>
+          </div>
           <div className="hero-actions">
-            <a href="mailto:kalifamshabazz@gmail.com" className="button dark-button">Email Kalifa</a>
+            <a href="mailto:info@kmandcompany.com" className="button dark-button">Start a Conversation</a>
             <a href="https://www.linkedin.com/in/kalifashabazz/" target="_blank" rel="noreferrer" className="button outline-dark">LinkedIn</a>
           </div>
         </div>
