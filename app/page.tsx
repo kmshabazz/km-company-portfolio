@@ -134,11 +134,14 @@ export default function Home() {
       </nav>
 
       <section id="top" className="hero section-shell">
-        <div className="hero-label">Consulting Portfolio</div>
+        <div className="hero-label">KM & Company · Consulting Portfolio</div>
         <p className="eyebrow">Meta Ads · Google Ads · Measurement · Growth</p>
-        <h1>I run the ads and build the measurement behind them.</h1>
+        <h1>Paid media operator. Measurement specialist.</h1>
         <p className="hero-copy">
-          KM & Company manages Facebook and Instagram advertising through Meta plus Google Ads, then connects campaign performance to trustworthy tracking, attribution, funnel behavior, and revenue so brands know what is actually working.
+          I’m Kalifa Shabazz, Principal of KM & Company. I manage Meta and Google advertising while also building the tracking, attribution, analytics, and growth systems behind the campaigns.
+        </p>
+        <p className="hero-copy">
+          Facebook & Instagram Ads · Google Search & Shopping · GA4 · GTM · Meta Pixel · CAPI · Attribution · Ecommerce Analytics
         </p>
         <div className="hero-actions">
           <a href="#work" className="button primary">View Paid Media Work</a>
@@ -233,15 +236,15 @@ export default function Home() {
 
       <section id="about" className="section-shell section-space about-grid">
         <div>
-          <p className="eyebrow">About</p>
-          <h2>Paid media operator. Measurement specialist.</h2>
+          <p className="eyebrow">Why This Combination Matters</p>
+          <h2>I work on both sides of performance marketing.</h2>
         </div>
         <div className="about-copy">
           <p>
-            I’m Kalifa Shabazz, Principal of KM & Company. I manage Meta and Google advertising while also building the tracking, attribution, analytics, and growth systems behind the campaigns.
+            My experience spans enterprise analytics, subscription businesses, ecommerce brands, agencies, and consulting environments. That combination lets me run the acquisition engine while making sure the data used to optimize it can actually be trusted.
           </p>
           <p>
-            My experience spans enterprise analytics, subscription businesses, ecommerce brands, agencies, and consulting environments. That combination lets me work on both sides of performance marketing: running the acquisition engine and making sure the data used to optimize it can actually be trusted.
+            I can move from campaign strategy and creative testing into tracking, attribution, funnel analysis, and revenue measurement without handing the problem off between separate teams.
           </p>
           <p>
             The goal is not more dashboards or more ad spend. It is a growth system that tells you what is working, what is broken, and what to do next.
