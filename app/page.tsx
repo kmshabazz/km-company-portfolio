@@ -1,18 +1,18 @@
 const proof = [
-  ["2.18x", "first profitable Meta ROAS"],
+  ["131", "Meta purchases managed for Kali Luxe"],
+  ["5.49K", "Google Ads clicks for Kali Luxe"],
+  ["$0.49", "average Google Ads CPC"],
   ["171/171", "Google Merchant Center variants approved"],
-  ["20–50%", "improvement in reported conversion accuracy"],
-  ["Full Funnel", "acquisition through revenue visibility"],
 ];
 
 const services = [
   {
-    title: "Paid Media Strategy & Management",
-    copy: "Meta Ads and Google Ads strategy, campaign structure, creative testing, budget decisions, optimization, and performance analysis tied back to real business outcomes.",
+    title: "Meta & Google Ads Management",
+    copy: "Hands-on campaign strategy and management across Facebook and Instagram Ads through Meta, plus Google Search and Shopping. I handle campaign structure, budgets, creative testing, optimization, and performance analysis tied back to business outcomes.",
   },
   {
     title: "Measurement & Attribution",
-    copy: "GA4, GTM, Meta Pixel, CAPI, conversion tracking, revenue events, attribution, and cross-platform reconciliation so decisions are based on trustworthy signals.",
+    copy: "GA4, GTM, Meta Pixel, CAPI, Google Ads conversion tracking, revenue events, attribution, and cross-platform reconciliation so campaigns are optimized against trustworthy signals.",
   },
   {
     title: "Creative Testing & AI Workflows",
@@ -26,33 +26,33 @@ const services = [
 
 const caseStudies = [
   {
-    eyebrow: "Performance Marketing & Growth",
+    eyebrow: "Meta + Google Ads · DTC Ecommerce",
     title: "Kali Luxe",
-    impact: "2.18x first profitable ROAS",
-    copy: "Built a measurement-led DTC growth system spanning Meta Ads, Google Ads, Shopify, creative testing, lifecycle, attribution, offer strategy, and conversion analysis.",
+    impact: "131 Meta purchases + 5.49K Google Ads clicks",
+    copy: "Built and operated a measurement-led DTC growth system spanning Facebook and Instagram Ads through Meta, Google Ads, Shopify, creative testing, lifecycle, attribution, offer strategy, and conversion analysis.",
     bullets: [
-      "Identified a lowest-cost buyer segment at $19.54 per purchase",
-      "Restructured the offer into a stronger value ladder",
-      "Built Meta and Higgsfield MCP creative workflows",
-      "Created reusable AI Skills and GitHub-based marketing workflows",
+      "Managed $15.38K in Meta spend resulting in 131 reported purchases and 776 adds to cart",
+      "Generated 5.49K Google Ads clicks at a $0.49 average CPC on $2.67K in spend",
+      "Built Meta and Higgsfield MCP workflows to support creative production and testing",
+      "Connected paid media decisions to Shopify, GA4, funnel, and revenue signals",
     ],
-    stack: "Meta Ads · Google Ads · Shopify · GA4 · MCP · Higgsfield · AI Skills",
+    stack: "Meta Ads · Facebook & Instagram · Google Ads · Shopify · GA4 · MCP · Higgsfield · AI Skills",
   },
   {
-    eyebrow: "Ecommerce Growth Infrastructure",
+    eyebrow: "Meta Ads · Ecommerce Growth Infrastructure",
     title: "ORIMI Jewelry",
-    impact: "171 of 171 product variants approved",
-    copy: "Connected ecommerce, analytics, paid media, and growth planning for a luxury fine jewelry brand while fixing Google Merchant Center eligibility issues.",
+    impact: "5,813 Meta link clicks at $0.61 average CPC",
+    copy: "Managed paid media and measurement infrastructure for a luxury fine jewelry brand while improving ecommerce readiness and Google Merchant Center eligibility.",
     bullets: [
-      "Resolved product-source and attribute issues across 171 variants",
-      "Connected GA4, Merchant Center, Meta Pixel, and reporting",
-      "Built a creative testing framework and first-sale roadmap",
-      "Created reusable founder reporting and campaign planning tools",
+      "Managed $3.56K in Meta spend across prospecting, retargeting, traffic, and engagement campaigns",
+      "Generated 358K+ impressions and 5,813 link clicks at approximately $0.61 CPC",
+      "Resolved product-source and attribute issues across 171 of 171 Google Merchant Center variants",
+      "Connected GA4, Merchant Center, Meta Pixel, campaign planning, and reporting",
     ],
-    stack: "Shopify · Google Merchant Center · GA4 · Meta Ads · Looker Studio",
+    stack: "Meta Ads · Facebook & Instagram · Google Merchant Center · Shopify · GA4 · Looker Studio",
   },
   {
-    eyebrow: "Attribution & Revenue Tracking",
+    eyebrow: "Google Ads · Attribution & Revenue Tracking",
     title: "Yippee TV",
     impact: "Full subscription-funnel revenue visibility",
     copy: "Unified traffic, trial starts, purchases, revenue, and attribution so a subscription business could evaluate channels on real downstream performance.",
@@ -65,7 +65,7 @@ const caseStudies = [
     stack: "GA4 · GTM · Google Ads · Looker Studio · Attribution",
   },
   {
-    eyebrow: "Measurement Repair",
+    eyebrow: "Meta Ads · Measurement Repair",
     title: "Conversion Tracking Repair",
     impact: "20–50% improvement in reported conversion accuracy",
     copy: "Rebuilt a fragmented conversion measurement system so analytics, CRM, and paid media platforms could be trusted for optimization.",
@@ -78,7 +78,7 @@ const caseStudies = [
     stack: "GA4 · GTM · Meta Pixel · CAPI · CRM · Attribution",
   },
   {
-    eyebrow: "Lead Gen & Funnel Tracking",
+    eyebrow: "Meta Ads · Lead Gen & Funnel Tracking",
     title: "Travel Her Way Collective",
     impact: "Reconciled Meta lead volume with CRM tracking",
     copy: "Improved measurement across a multi-platform lead funnel using Showit, GoHighLevel, Spiffy, Meta Pixel, CAPI, domain verification, and purchase tracking.",
@@ -88,33 +88,33 @@ const caseStudies = [
       "Improved domain and event configuration for Meta",
       "Connected lead-generation activity to downstream funnel behavior",
     ],
-    stack: "Meta Ads · CAPI · GoHighLevel · Spiffy · Showit · Attribution",
+    stack: "Meta Ads · Facebook & Instagram · CAPI · GoHighLevel · Spiffy · Showit · Attribution",
   },
   {
-    eyebrow: "Digital Growth From Zero",
+    eyebrow: "Meta Ads · Digital Growth From Zero",
     title: "Shabazz Seafood",
     impact: "From no digital footprint to national visibility",
-    copy: "Built the website, analytics, paid media, social, content, and event-growth foundation for a local food business.",
+    copy: "Built the website, analytics, paid social, content, and event-growth foundation for a local food business.",
     bullets: [
       "Built the digital presence and tracking foundation from scratch",
-      "Launched paid social to drive awareness and foot traffic",
+      "Launched Facebook and Instagram advertising to drive awareness and foot traffic",
       "Created repeatable event-driven growth programs",
       "Supported sustained digital growth and national media visibility",
     ],
-    stack: "Website · GA4 · Meta Ads · Paid Social · Content · Growth Analytics",
+    stack: "Website · GA4 · Meta Ads · Facebook & Instagram · Content · Growth Analytics",
   },
 ];
 
 const process = [
   ["01", "Diagnose", "Audit the acquisition, measurement, funnel, and reporting system to find where signal or performance is breaking."],
   ["02", "Fix the foundation", "Repair tracking, attribution, conversion events, platform connections, and reporting before scaling spend."],
-  ["03", "Build the growth system", "Create the campaign structure, creative testing process, funnel measurement, and operating rhythm."],
+  ["03", "Run & test", "Build and manage Meta and Google campaigns, creative testing, audience strategy, budgets, and funnel measurement."],
   ["04", "Optimize from revenue", "Use customer behavior, funnel data, conversion quality, and revenue to guide decisions instead of vanity metrics."],
 ];
 
 const tools = [
-  ["Paid Media", "Meta Ads · Google Ads · TikTok · YouTube · CM360"],
-  ["Measurement", "GA4 · GTM · Meta Pixel · CAPI · Attribution · OneTrust"],
+  ["Paid Media", "Meta Ads (Facebook & Instagram) · Google Ads · Google Shopping · TikTok · YouTube · CM360"],
+  ["Measurement", "GA4 · GTM · Meta Pixel · CAPI · Google Ads Conversion Tracking · Attribution · OneTrust"],
   ["Ecommerce & Lifecycle", "Shopify · CRO · Funnel Analysis · Omnisend · Email/SMS"],
   ["Data & Reporting", "BigQuery · Databricks · SQL · Looker Studio · Power BI · Tableau · Domo"],
   ["AI & Automation", "Claude Code · ChatGPT · MCP · Higgsfield · AI Skills · GitHub workflows"],
@@ -135,13 +135,13 @@ export default function Home() {
 
       <section id="top" className="hero section-shell">
         <div className="hero-label">Consulting Portfolio</div>
-        <p className="eyebrow">Paid Media · Measurement · Growth Systems</p>
-        <h1>Build the system behind profitable growth.</h1>
+        <p className="eyebrow">Meta Ads · Google Ads · Measurement · Growth</p>
+        <h1>I run the ads and build the measurement behind them.</h1>
         <p className="hero-copy">
-          KM & Company helps brands connect paid acquisition, trustworthy tracking, attribution, creative testing, funnel performance, and revenue so marketing decisions are based on what is actually working.
+          KM & Company manages Facebook and Instagram advertising through Meta plus Google Ads, then connects campaign performance to trustworthy tracking, attribution, funnel behavior, and revenue so brands know what is actually working.
         </p>
         <div className="hero-actions">
-          <a href="#work" className="button primary">View Case Studies</a>
+          <a href="#work" className="button primary">View Paid Media Work</a>
           <a href="#contact" className="button secondary">Start a Project</a>
         </div>
       </section>
@@ -158,7 +158,7 @@ export default function Home() {
       <section id="services" className="section-shell section-space">
         <div className="section-heading">
           <p className="eyebrow">What I Do</p>
-          <h2>Media, measurement, and growth should operate as one system.</h2>
+          <h2>Campaign management and measurement, under one roof.</h2>
         </div>
         <div className="service-grid">
           {services.map((service) => (
@@ -175,9 +175,9 @@ export default function Home() {
           <div className="section-heading split-heading">
             <div>
               <p className="eyebrow">Selected Work</p>
-              <h2>Built, fixed, and grown.</h2>
+              <h2>Paid media, tracking, and growth systems in practice.</h2>
             </div>
-            <p>Case studies across paid acquisition, ecommerce, attribution, tracking, creative systems, and full-funnel growth.</p>
+            <p>Case studies across Meta Ads, Google Ads, ecommerce, attribution, conversion tracking, creative systems, and full-funnel growth.</p>
           </div>
           <div className="case-grid">
             {caseStudies.map((study) => (
@@ -201,7 +201,7 @@ export default function Home() {
       <section className="section-shell section-space">
         <div className="section-heading">
           <p className="eyebrow">How I Work</p>
-          <h2>Fix the signal before scaling the spend.</h2>
+          <h2>Fix the signal, run the campaigns, optimize from the business outcome.</h2>
         </div>
         <div className="process-grid">
           {process.map(([num, title, copy]) => (
@@ -225,7 +225,7 @@ export default function Home() {
               I use Meta and Higgsfield MCP workflows to support creative production and iteration, then build reusable AI Skills, prompts, and workflow instructions in GitHub repositories so repeatable marketing work becomes more consistent and scalable.
             </p>
             <p>
-              AI supports the workflow. Performance data, customer behavior, and revenue still drive the decisions.
+              AI supports the workflow. Campaign performance, customer behavior, and revenue still drive the decisions.
             </p>
           </div>
         </div>
@@ -234,17 +234,17 @@ export default function Home() {
       <section id="about" className="section-shell section-space about-grid">
         <div>
           <p className="eyebrow">About</p>
-          <h2>Built from both sides of the dashboard.</h2>
+          <h2>Paid media operator. Measurement specialist.</h2>
         </div>
         <div className="about-copy">
           <p>
-            I’m Kalifa Shabazz, Principal of KM & Company. My work sits at the intersection of paid media, measurement, analytics, ecommerce, and growth.
+            I’m Kalifa Shabazz, Principal of KM & Company. I manage Meta and Google advertising while also building the tracking, attribution, analytics, and growth systems behind the campaigns.
           </p>
           <p>
-            I have worked across enterprise analytics, subscription businesses, ecommerce brands, agencies, and consulting environments. That means I understand both the technical side of whether the data can be trusted and the commercial side of what needs to happen after the data is available.
+            My experience spans enterprise analytics, subscription businesses, ecommerce brands, agencies, and consulting environments. That combination lets me work on both sides of performance marketing: running the acquisition engine and making sure the data used to optimize it can actually be trusted.
           </p>
           <p>
-            The goal is not more dashboards. It is a growth system that tells you what is working, what is broken, and what to do next.
+            The goal is not more dashboards or more ad spend. It is a growth system that tells you what is working, what is broken, and what to do next.
           </p>
         </div>
       </section>
@@ -269,8 +269,8 @@ export default function Home() {
       <section id="contact" className="section-shell section-space">
         <div className="contact-panel">
           <p className="eyebrow dark">Work With KM & Company</p>
-          <h2>Need better paid media performance, cleaner tracking, or a growth system you can actually trust?</h2>
-          <p>Consulting projects, fractional growth support, measurement work, and agency opportunities.</p>
+          <h2>Need someone who can run Meta or Google Ads and understand the data behind them?</h2>
+          <p>Paid media management, consulting projects, fractional growth support, measurement work, and agency opportunities.</p>
           <div className="contact-details">
             <a href="mailto:info@kmandcompany.com">info@kmandcompany.com</a>
             <a href="tel:+12132937098">(213) 293-7098</a>
@@ -284,7 +284,7 @@ export default function Home() {
 
       <footer>
         <span>© 2026 KM & Company</span>
-        <span>Paid Media · Measurement · Growth Systems</span>
+        <span>Meta Ads · Google Ads · Measurement · Growth Systems</span>
       </footer>
     </main>
   );
