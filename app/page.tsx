@@ -93,13 +93,13 @@ const caseStudies = [
   {
     eyebrow: "Meta Ads · Digital Growth From Zero",
     title: "Shabazz Seafood",
-    impact: "From no digital footprint to national visibility",
+    impact: "From no digital footprint to Netflix \"Fresh, Fried, and Crispy\"",
     copy: "Built the website, analytics, paid social, content, and event-growth foundation for a local food business.",
     bullets: [
       "Built the digital presence and tracking foundation from scratch",
       "Launched Facebook and Instagram advertising to drive awareness and foot traffic",
       "Created repeatable event-driven growth programs",
-      "Supported sustained digital growth and national media visibility",
+      "Supported sustained digital growth leading to national media visibility, including Netflix's \"Fresh, Fried, and Crispy\"",
     ],
     stack: "Website · GA4 · Meta Ads · Facebook & Instagram · Content · Growth Analytics",
   },
