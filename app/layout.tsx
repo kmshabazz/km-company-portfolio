@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "KM & Company | Paid Media, Measurement & Growth Systems",
+  title: "KM & Company | Measurement Architecture, Data Instrumentation & Growth Systems",
   description:
-    "KM & Company helps brands connect paid acquisition, tracking, attribution, creative testing, funnel performance, and revenue into one measurable growth system.",
+    "KM & Company builds trusted measurement and growth systems across data instrumentation, event architecture, attribution, conversion, revenue analytics, and AI-enabled workflows.",
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
