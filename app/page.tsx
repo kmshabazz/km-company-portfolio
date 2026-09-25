@@ -7,20 +7,20 @@ const proof = [
 
 const services = [
   {
-    title: "Meta & Google Ads Management",
-    copy: "Hands-on campaign strategy and management across Facebook and Instagram Ads through Meta, plus Google Search and Shopping. I handle campaign structure, budgets, creative testing, optimization, and performance analysis tied back to business outcomes.",
+    title: "Growth Measurement & Paid Media",
+    copy: "Performance marketing and growth measurement across Meta and Google, connecting campaign strategy, conversion signals, attribution, creative testing, and revenue outcomes so spend is guided by trusted data.",
   },
   {
-    title: "Measurement & Attribution",
-    copy: "GA4, GTM, Meta Pixel, CAPI, Google Ads conversion tracking, revenue events, attribution, and cross-platform reconciliation so campaigns are optimized against trustworthy signals.",
+    title: "Measurement Architecture & Data Instrumentation",
+    copy: "GA4 and GTM architecture, event taxonomy, conversion instrumentation, Meta Pixel, CAPI, Google Ads signal configuration, attribution, and cross-platform reconciliation designed around consistent, decision-ready data.",
   },
   {
-    title: "Creative Testing & AI Workflows",
-    copy: "Structured creative testing systems plus Meta and Higgsfield MCP workflows, reusable AI Skills, and repeatable production processes for faster iteration.",
+    title: "AI-Enabled Analytics Operations",
+    copy: "AI Skills, MCP workflows, reusable prompts, and governed automation that accelerate analytics QA, creative iteration, investigation, and repeatable marketing operations while keeping human judgment in the loop.",
   },
   {
-    title: "Ecommerce & Funnel Analytics",
-    copy: "Shopify analytics, CRO, offer architecture, lifecycle, funnel analysis, and revenue visibility to find the points where growth is being lost or unlocked.",
+    title: "Attribution, Funnel & Revenue Analytics",
+    copy: "Full-funnel analysis across acquisition, customer behavior, conversion, lifecycle, and revenue to identify where signal quality, attribution, or customer journeys are limiting growth.",
   },
 ];
 
@@ -106,17 +106,17 @@ const caseStudies = [
 ];
 
 const process = [
-  ["01", "Diagnose", "Audit the acquisition, measurement, funnel, and reporting system to find where signal or performance is breaking."],
-  ["02", "Fix the foundation", "Repair tracking, attribution, conversion events, platform connections, and reporting before scaling spend."],
-  ["03", "Run & test", "Build and manage Meta and Google campaigns, creative testing, audience strategy, budgets, and funnel measurement."],
-  ["04", "Optimize from revenue", "Use customer behavior, funnel data, conversion quality, and revenue to guide decisions instead of vanity metrics."],
+  ["01", "Audit the instrumentation", "Assess event architecture, conversion signals, platform alignment, attribution, and reporting to find where data quality or performance is breaking."],
+  ["02", "Govern the measurement layer", "Standardize event logic, repair tracking, reconcile platforms, and establish reliable measurement before optimization."],
+  ["03", "Activate growth", "Connect trusted signals to paid media, creative testing, funnel strategy, and lifecycle decisions across the customer journey."],
+  ["04", "Optimize from outcomes", "Use customer behavior, conversion quality, attribution, and revenue to guide spend and growth decisions instead of vanity metrics."],
 ];
 
 const tools = [
   ["Paid Media", "Meta Ads (Facebook & Instagram) · Google Ads · Google Shopping · TikTok · YouTube · CM360"],
-  ["Measurement", "GA4 · GTM · Meta Pixel · CAPI · Google Ads Conversion Tracking · Attribution · OneTrust"],
+  ["Measurement & Instrumentation", "GA4 · GTM · Event Taxonomy · Meta Pixel · CAPI · Google Ads Conversion Tracking · Attribution · OneTrust"],
   ["Ecommerce & Lifecycle", "Shopify · CRO · Funnel Analysis · Omnisend · Email/SMS"],
-  ["Data & Reporting", "BigQuery · Databricks · SQL · Looker Studio · Power BI · Tableau · Domo"],
+  ["Data, Quality & Observability", "BigQuery · Databricks · SQL · Data Validation · Cross-Platform Reconciliation · Looker Studio · Power BI · Tableau · Domo"],
   ["AI & Automation", "Claude Code · ChatGPT · MCP · Higgsfield · AI Skills · GitHub workflows"],
 ];
 
@@ -135,13 +135,13 @@ export default function Home() {
 
       <section id="top" className="hero section-shell">
         <div className="hero-label">KM & Company · Consulting Portfolio</div>
-        <p className="eyebrow">Meta Ads · Google Ads · Measurement · Growth</p>
-        <h1>Paid media operator. Measurement specialist.</h1>
+        <p className="eyebrow">Measurement Architecture · Data Instrumentation · Growth Systems · AI</p>
+        <h1>Build trusted measurement. Connect it to growth.</h1>
         <p className="hero-copy">
-          I’m Kalifa Shabazz, Principal of KM & Company. I manage Meta and Google advertising while also building the tracking, attribution, analytics, and growth systems behind the campaigns.
+          I’m Kalifa Shabazz, Principal of KM & Company. I design measurement and growth systems that connect Product, Marketing, Engineering, and Data across instrumentation, attribution, conversion, and revenue.
         </p>
         <p className="hero-copy">
-          Facebook & Instagram Ads · Google Search & Shopping · GA4 · GTM · Meta Pixel · CAPI · Attribution · Ecommerce Analytics
+          GA4 · GTM · Event Taxonomy · BigQuery · Meta CAPI · Attribution · Data Quality · Growth Measurement · AI Workflows
         </p>
         <div className="hero-actions">
           <a href="#work" className="button primary">View Paid Media Work</a>
@@ -161,7 +161,7 @@ export default function Home() {
       <section id="services" className="section-shell section-space">
         <div className="section-heading">
           <p className="eyebrow">What I Do</p>
-          <h2>Campaign management and measurement, under one roof.</h2>
+          <h2>Measurement architecture, instrumentation, and growth under one roof.</h2>
         </div>
         <div className="service-grid">
           {services.map((service) => (
@@ -178,9 +178,9 @@ export default function Home() {
           <div className="section-heading split-heading">
             <div>
               <p className="eyebrow">Selected Work</p>
-              <h2>Paid media, tracking, and growth systems in practice.</h2>
+              <h2>Instrumentation, attribution, and growth systems in practice.</h2>
             </div>
-            <p>Case studies across Meta Ads, Google Ads, ecommerce, attribution, conversion tracking, creative systems, and full-funnel growth.</p>
+            <p>Case studies across measurement architecture, conversion instrumentation, attribution, paid media, ecommerce, and full-funnel growth.</p>
           </div>
           <div className="case-grid">
             {caseStudies.map((study) => (
@@ -204,7 +204,7 @@ export default function Home() {
       <section className="section-shell section-space">
         <div className="section-heading">
           <p className="eyebrow">How I Work</p>
-          <h2>Fix the signal, run the campaigns, optimize from the business outcome.</h2>
+          <h2>Govern the signal, align the platforms, optimize from business outcomes.</h2>
         </div>
         <div className="process-grid">
           {process.map(([num, title, copy]) => (
@@ -236,18 +236,18 @@ export default function Home() {
 
       <section id="about" className="section-shell section-space about-grid">
         <div>
-          <p className="eyebrow">Why This Combination Matters</p>
-          <h2>I work on both sides of performance marketing.</h2>
+          <p className="eyebrow">Cross-Functional Measurement Leadership</p>
+          <h2>I connect Product, Marketing, Engineering, and Data.</h2>
         </div>
         <div className="about-copy">
           <p>
-            My experience spans enterprise analytics, subscription businesses, ecommerce brands, agencies, and consulting environments. That combination lets me run the acquisition engine while making sure the data used to optimize it can actually be trusted.
+            My experience spans enterprise analytics, subscription businesses, ecommerce brands, agencies, and consulting environments. I operate across measurement architecture, data instrumentation, attribution, paid media, and analytics operations so teams can make decisions from a consistent measurement foundation.
           </p>
           <p>
-            I can move from campaign strategy and creative testing into tracking, attribution, funnel analysis, and revenue measurement without handing the problem off between separate teams.
+            I translate business and growth requirements into event logic, conversion instrumentation, validation workflows, reporting, and optimization frameworks while partnering across technical and marketing teams.
           </p>
           <p>
-            The goal is not more dashboards or more ad spend. It is a growth system that tells you what is working, what is broken, and what to do next.
+            The goal is not more dashboards or more ad spend. It is an observable, governed measurement system that makes clear what is working, what is broken, and what teams should do next.
           </p>
         </div>
       </section>
@@ -272,8 +272,8 @@ export default function Home() {
       <section id="contact" className="section-shell section-space">
         <div className="contact-panel">
           <p className="eyebrow dark">Work With KM & Company</p>
-          <h2>Need someone who can run Meta or Google Ads and understand the data behind them?</h2>
-          <p>Paid media management, consulting projects, fractional growth support, measurement work, and agency opportunities.</p>
+          <h2>Need trusted measurement behind product and growth decisions?</h2>
+          <p>Measurement architecture, data instrumentation, attribution, growth measurement, paid media consulting, AI-enabled analytics operations, and fractional support.</p>
           <div className="contact-details">
             <a href="mailto:info@kmandcompany.com">info@kmandcompany.com</a>
             <a href="tel:+12132937098">(213) 293-7098</a>
@@ -287,7 +287,7 @@ export default function Home() {
 
       <footer>
         <span>© 2026 KM & Company</span>
-        <span>Meta Ads · Google Ads · Measurement · Growth Systems</span>
+        <span>Measurement Architecture · Data Instrumentation · Growth Systems · AI</span>
       </footer>
     </main>
   );
