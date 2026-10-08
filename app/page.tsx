@@ -1,294 +1,42 @@
-const proof = [
-  ["131", "Meta purchases managed for Kali Luxe"],
-  ["5.49K", "Google Ads clicks for Kali Luxe"],
-  ["$0.49", "average Google Ads CPC"],
-  ["171/171", "Google Merchant Center variants approved"],
-];
-
 const services = [
-  {
-    title: "Meta & Google Ads Management",
-    copy: "Hands-on campaign strategy and management across Facebook and Instagram Ads through Meta, plus Google Search and Shopping. I handle campaign structure, budgets, creative testing, optimization, and performance analysis tied back to business outcomes.",
-  },
-  {
-    title: "Measurement & Attribution",
-    copy: "GA4, GTM, Meta Pixel, CAPI, Google Ads conversion tracking, revenue events, attribution, and cross-platform reconciliation so campaigns are optimized against trustworthy signals.",
-  },
-  {
-    title: "Creative Testing & AI Workflows",
-    copy: "Structured creative testing systems plus Meta and Higgsfield MCP workflows, reusable AI Skills, and repeatable production processes for faster iteration.",
-  },
-  {
-    title: "Ecommerce & Funnel Analytics",
-    copy: "Shopify analytics, CRO, offer architecture, lifecycle, funnel analysis, and revenue visibility to find the points where growth is being lost or unlocked.",
-  },
+  { number:"01", title:"Go-To-Market Strategy", desc:"Know your market. Define your advantage.", copy:"We clarify who you serve, how your offer stands apart, and which channels will drive your next stage of growth.", items:["Market & competitor intelligence","Customer segmentation & positioning","Offers, messaging & channel planning"] },
+  { number:"02", title:"Creative & AI-Enabled Execution", desc:"Turn strategy into market-ready assets.", copy:"We translate your positioning into cohesive campaigns, content, web experiences, and launch materials.", items:["Campaign creative & copy","AI-assisted visuals & video","Websites, landing pages & launch assets"] },
+  { number:"03", title:"Acquisition & Revenue Growth", desc:"Connect attention to action.", copy:"We build and optimize the journeys that turn interest into customers, from paid channels to conversion and retention.", items:["Paid social & search","Conversion funnels & ecommerce","CRM, email & lifecycle journeys"] },
+  { number:"04", title:"Measurement & Growth Intelligence", desc:"Make decisions with data you trust.", copy:"We connect marketing activity to business outcomes with rigorous measurement architecture, reporting, and QA.", items:["GA4, GTM & conversion tracking","Attribution, CAPI & revenue signals","BigQuery, dashboards & governance"] },
 ];
-
-const caseStudies = [
-  {
-    eyebrow: "Meta + Google Ads · DTC Ecommerce",
-    title: "Kali Luxe",
-    impact: "131 Meta purchases + 5.49K Google Ads clicks",
-    copy: "Built and operated a measurement-led DTC growth system spanning Facebook and Instagram Ads through Meta, Google Ads, Shopify, creative testing, lifecycle, attribution, offer strategy, and conversion analysis.",
-    bullets: [
-      "Managed $15.38K in Meta spend resulting in 131 reported purchases and 776 adds to cart",
-      "Generated 5.49K Google Ads clicks at a $0.49 average CPC on $2.67K in spend",
-      "Built Meta and Higgsfield MCP workflows to support creative production and testing",
-      "Connected paid media decisions to Shopify, GA4, funnel, and revenue signals",
-    ],
-    stack: "Meta Ads · Facebook & Instagram · Google Ads · Shopify · GA4 · MCP · Higgsfield · AI Skills",
-  },
-  {
-    eyebrow: "Meta Ads · Ecommerce Growth Infrastructure",
-    title: "ORIMI Jewelry",
-    impact: "5,813 Meta link clicks at $0.61 average CPC",
-    copy: "Managed paid media and measurement infrastructure for a luxury fine jewelry brand while improving ecommerce readiness and Google Merchant Center eligibility.",
-    bullets: [
-      "Managed $3.56K in Meta spend across prospecting, retargeting, traffic, and engagement campaigns",
-      "Generated 358K+ impressions and 5,813 link clicks at approximately $0.61 CPC",
-      "Resolved product-source and attribute issues across 171 of 171 Google Merchant Center variants",
-      "Connected GA4, Merchant Center, Meta Pixel, campaign planning, and reporting",
-    ],
-    stack: "Meta Ads · Facebook & Instagram · Google Merchant Center · Shopify · GA4 · Looker Studio",
-  },
-  {
-    eyebrow: "Google Ads · Attribution & Revenue Tracking",
-    title: "Yippee TV",
-    impact: "Full subscription-funnel revenue visibility",
-    copy: "Unified traffic, trial starts, purchases, revenue, and attribution so a subscription business could evaluate channels on real downstream performance.",
-    bullets: [
-      "Standardized trial and purchase conversion definitions",
-      "Aligned revenue tracking across GA4 and Google Ads",
-      "Built first-touch and last-touch attribution reporting",
-      "Connected blog traffic to the paid subscription journey",
-    ],
-    stack: "GA4 · GTM · Google Ads · Looker Studio · Attribution",
-  },
-  {
-    eyebrow: "Meta Ads · Measurement Repair",
-    title: "Conversion Tracking Repair",
-    impact: "20–50% improvement in reported conversion accuracy",
-    copy: "Rebuilt a fragmented conversion measurement system so analytics, CRM, and paid media platforms could be trusted for optimization.",
-    bullets: [
-      "Diagnosed duplicate and inconsistent conversion events",
-      "Re-architected lead and funnel event logic",
-      "Implemented browser and server-side deduplication",
-      "Restored confidence in campaign and funnel reporting",
-    ],
-    stack: "GA4 · GTM · Meta Pixel · CAPI · CRM · Attribution",
-  },
-  {
-    eyebrow: "Meta Ads · Lead Gen & Funnel Tracking",
-    title: "Travel Her Way Collective",
-    impact: "Reconciled Meta lead volume with CRM tracking",
-    copy: "Improved measurement across a multi-platform lead funnel using Showit, GoHighLevel, Spiffy, Meta Pixel, CAPI, domain verification, and purchase tracking.",
-    bullets: [
-      "Investigated Meta versus CRM lead discrepancies",
-      "Implemented purchase measurement on the checkout platform",
-      "Improved domain and event configuration for Meta",
-      "Connected lead-generation activity to downstream funnel behavior",
-    ],
-    stack: "Meta Ads · Facebook & Instagram · CAPI · GoHighLevel · Spiffy · Showit · Attribution",
-  },
-  {
-    eyebrow: "Meta Ads · Digital Growth From Zero",
-    title: "Shabazz Seafood",
-    impact: "From no digital footprint to Netflix \"Fresh, Fried, and Crispy\"",
-    copy: "Built the website, analytics, paid social, content, and event-growth foundation for a local food business.",
-    bullets: [
-      "Built the digital presence and tracking foundation from scratch",
-      "Launched Facebook and Instagram advertising to drive awareness and foot traffic",
-      "Created repeatable event-driven growth programs",
-      "Supported sustained digital growth leading to national media visibility, including Netflix's \"Fresh, Fried, and Crispy\"",
-    ],
-    stack: "Website · GA4 · Meta Ads · Facebook & Instagram · Content · Growth Analytics",
-  },
+const steps = [
+  ["01","Diagnose","Assess the business, customer, competitive landscape, marketing performance, and existing technology."],
+  ["02","Architect","Define the positioning, customer journey, channel strategy, creative direction, and measurement plan."],
+  ["03","Build","Develop the approved assets, campaigns, funnels, automations, and analytics infrastructure."],
+  ["04","Launch","Validate implementation, activate agreed channels, and establish performance baselines."],
+  ["05","Optimize","Use real performance evidence to prioritize experiments and next-stage growth decisions."],
 ];
-
-const process = [
-  ["01", "Diagnose", "Audit the acquisition, measurement, funnel, and reporting system to find where signal or performance is breaking."],
-  ["02", "Fix the foundation", "Repair tracking, attribution, conversion events, platform connections, and reporting before scaling spend."],
-  ["03", "Run & test", "Build and manage Meta and Google campaigns, creative testing, audience strategy, budgets, and funnel measurement."],
-  ["04", "Optimize from revenue", "Use customer behavior, funnel data, conversion quality, and revenue to guide decisions instead of vanity metrics."],
+const studies = [
+  { category:"DIGITAL MARKET DEVELOPMENT", title:"Shabazz Seafood", heading:"From local presence to a digital growth foundation.", description:"Built website, content, paid social, and analytics foundations for a local food brand to strengthen visibility and ongoing demand generation.", tags:"Website · Paid Social · GA4 · Content" },
+  { category:"SUBSCRIPTION & ATTRIBUTION", title:"Yippee TV", heading:"A clearer view of the full subscriber journey.", description:"Aligned trial, purchase, revenue, and marketing measurement across GA4, Google Ads, and reporting to improve subscription funnel visibility.", tags:"GA4 · GTM · Google Ads · Looker Studio" },
+  { category:"LEAD-TO-REVENUE INFRASTRUCTURE", title:"Travel Her Way Collective", heading:"Connecting lead generation to customer action.", description:"Investigated discrepancies between Meta, CRM, and checkout measurement and strengthened purchase-event and conversion tracking across the funnel.", tags:"Meta Pixel · CAPI · CRM · Checkout" }
 ];
-
-const tools = [
-  ["Paid Media", "Meta Ads (Facebook & Instagram) · Google Ads · Google Shopping · TikTok · YouTube · CM360"],
-  ["Measurement", "GA4 · GTM · Meta Pixel · CAPI · Google Ads Conversion Tracking · Attribution · OneTrust"],
-  ["Ecommerce & Lifecycle", "Shopify · CRO · Funnel Analysis · Omnisend · Email/SMS"],
-  ["Data & Reporting", "BigQuery · Databricks · SQL · Looker Studio · Power BI · Tableau · Domo"],
-  ["AI & Automation", "Claude Code · ChatGPT · MCP · Higgsfield · AI Skills · GitHub workflows"],
-];
-
 export default function Home() {
-  return (
-    <main>
-      <nav className="nav-shell">
-        <a href="#top" className="brand">KM & Company</a>
-        <div className="nav-links">
-          <a href="#services">Services</a>
-          <a href="#work">Work</a>
-          <a href="#about">About</a>
-          <a href="#contact" className="nav-cta">Start a Project</a>
-        </div>
-      </nav>
-
-      <section id="top" className="hero section-shell">
-        <div className="hero-label">KM & Company · Consulting Portfolio</div>
-        <p className="eyebrow">Meta Ads · Google Ads · Measurement · Growth</p>
-        <h1>Paid media operator. Measurement specialist.</h1>
-        <p className="hero-copy">
-          I’m Kalifa Shabazz, Principal of KM & Company. I manage Meta and Google advertising while also building the tracking, attribution, analytics, and growth systems behind the campaigns.
-        </p>
-        <p className="hero-copy">
-          Facebook & Instagram Ads · Google Search & Shopping · GA4 · GTM · Meta Pixel · CAPI · Attribution · Ecommerce Analytics
-        </p>
-        <div className="hero-actions">
-          <a href="#work" className="button primary">View Paid Media Work</a>
-          <a href="#contact" className="button secondary">Start a Project</a>
-        </div>
-      </section>
-
-      <section className="proof-grid">
-        {proof.map(([value, label]) => (
-          <div className="proof-card" key={value}>
-            <strong>{value}</strong>
-            <span>{label}</span>
-          </div>
-        ))}
-      </section>
-
-      <section id="services" className="section-shell section-space">
-        <div className="section-heading">
-          <p className="eyebrow">What I Do</p>
-          <h2>Campaign management and measurement, under one roof.</h2>
-        </div>
-        <div className="service-grid">
-          {services.map((service) => (
-            <article className="panel" key={service.title}>
-              <h3>{service.title}</h3>
-              <p>{service.copy}</p>
-            </article>
-          ))}
-        </div>
-      </section>
-
-      <section id="work" className="section-band section-space">
-        <div className="section-shell">
-          <div className="section-heading split-heading">
-            <div>
-              <p className="eyebrow">Selected Work</p>
-              <h2>Paid media, tracking, and growth systems in practice.</h2>
-            </div>
-            <p>Case studies across Meta Ads, Google Ads, ecommerce, attribution, conversion tracking, creative systems, and full-funnel growth.</p>
-          </div>
-          <div className="case-grid">
-            {caseStudies.map((study) => (
-              <article className="case-card" key={study.title}>
-                <div className="case-topline">
-                  <span>{study.eyebrow}</span>
-                  <strong>{study.impact}</strong>
-                </div>
-                <h3>{study.title}</h3>
-                <p className="case-copy">{study.copy}</p>
-                <ul>
-                  {study.bullets.map((bullet) => <li key={bullet}>{bullet}</li>)}
-                </ul>
-                <p className="stack">{study.stack}</p>
-              </article>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      <section className="section-shell section-space">
-        <div className="section-heading">
-          <p className="eyebrow">How I Work</p>
-          <h2>Fix the signal, run the campaigns, optimize from the business outcome.</h2>
-        </div>
-        <div className="process-grid">
-          {process.map(([num, title, copy]) => (
-            <article className="process-card" key={num}>
-              <span>{num}</span>
-              <h3>{title}</h3>
-              <p>{copy}</p>
-            </article>
-          ))}
-        </div>
-      </section>
-
-      <section className="ai-band section-space">
-        <div className="section-shell ai-grid">
-          <div>
-            <p className="eyebrow">AI-Powered Marketing Operations</p>
-            <h2>Faster systems. Better decisions.</h2>
-          </div>
-          <div>
-            <p>
-              I use Meta and Higgsfield MCP workflows to support creative production and iteration, then build reusable AI Skills, prompts, and workflow instructions in GitHub repositories so repeatable marketing work becomes more consistent and scalable.
-            </p>
-            <p>
-              AI supports the workflow. Campaign performance, customer behavior, and revenue still drive the decisions.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      <section id="about" className="section-shell section-space about-grid">
-        <div>
-          <p className="eyebrow">Why This Combination Matters</p>
-          <h2>I work on both sides of performance marketing.</h2>
-        </div>
-        <div className="about-copy">
-          <p>
-            My experience spans enterprise analytics, subscription businesses, ecommerce brands, agencies, and consulting environments. That combination lets me run the acquisition engine while making sure the data used to optimize it can actually be trusted.
-          </p>
-          <p>
-            I can move from campaign strategy and creative testing into tracking, attribution, funnel analysis, and revenue measurement without handing the problem off between separate teams.
-          </p>
-          <p>
-            The goal is not more dashboards or more ad spend. It is a growth system that tells you what is working, what is broken, and what to do next.
-          </p>
-        </div>
-      </section>
-
-      <section className="section-band section-space">
-        <div className="section-shell">
-          <div className="section-heading">
-            <p className="eyebrow">Technology</p>
-            <h2>The stack behind the work.</h2>
-          </div>
-          <div className="tool-list">
-            {tools.map(([group, list]) => (
-              <div className="tool-row" key={group}>
-                <strong>{group}</strong>
-                <span>{list}</span>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      <section id="contact" className="section-shell section-space">
-        <div className="contact-panel">
-          <p className="eyebrow dark">Work With KM & Company</p>
-          <h2>Need someone who can run Meta or Google Ads and understand the data behind them?</h2>
-          <p>Paid media management, consulting projects, fractional growth support, measurement work, and agency opportunities.</p>
-          <div className="contact-details">
-            <a href="mailto:info@kmandcompany.com">info@kmandcompany.com</a>
-            <a href="tel:+12132937098">(213) 293-7098</a>
-          </div>
-          <div className="hero-actions">
-            <a href="mailto:info@kmandcompany.com" className="button dark-button">Start a Conversation</a>
-            <a href="https://www.linkedin.com/in/kalifashabazz/" target="_blank" rel="noreferrer" className="button outline-dark">LinkedIn</a>
-          </div>
-        </div>
-      </section>
-
-      <footer>
-        <span>© 2026 KM & Company</span>
-        <span>Meta Ads · Google Ads · Measurement · Growth Systems</span>
-      </footer>
-    </main>
-  );
+ return <main id="top">
+  <header className="header"><div className="container nav">
+   <a className="wordmark" href="#top" aria-label="KM & Company home">KM <span>&</span> COMPANY<span className="wordmark-dot">.</span></a>
+   <nav aria-label="Main navigation"><a href="#expertise">Expertise</a><a href="#approach">Approach</a><a href="#work">Selected Work</a><a href="#about">About</a></nav>
+   <a className="nav-contact" href="#contact">Let's Talk <span>↗</span></a>
+  </div></header>
+  <section className="hero"><div className="container hero-inner">
+   <p className="overline hero-overline"><span className="small-line"/> GO-TO-MARKET · GROWTH · INTELLIGENCE</p>
+   <h1>From strategy<br/><em>to revenue.</em></h1>
+   <div className="hero-bottom"><div><p className="hero-lede">Connected growth systems for businesses ready to move forward.</p><p className="hero-description">We combine go-to-market strategy, creative execution, acquisition, and enterprise-grade measurement to help ambitious brands launch smarter and grow with confidence.</p><div className="actions"><a className="btn light" href="#contact">Start a Conversation <span>↗</span></a><a className="text-link inverse" href="#work">Explore Our Work <span>↗</span></a></div></div><div className="hero-mark" aria-hidden="true">K<span>M</span></div></div>
+   <div className="hero-foot"><span>STRATEGY-LED</span><span>AI-ENABLED</span><span>MEASUREMENT-DRIVEN</span></div>
+  </div></section>
+  <section className="credentials"><div className="container credentials-grid"><p className="eyebrow">THE FOUNDATION</p><div><strong>10+ years</strong><span>Across marketing, analytics & digital growth</span></div><div><strong>18+ brands</strong><span>Enterprise, agency, nonprofit & consumer environments</span></div><div><strong>Full-funnel</strong><span>From positioning and acquisition to revenue intelligence</span></div></div></section>
+  <section className="section intro"><div className="container intro-grid"><p className="eyebrow">01 / THE CHALLENGE</p><div><h2>More marketing doesn't always mean <em>more growth.</em></h2><p>Creative, advertising, technology, and analytics are often managed in silos. The result: fragmented execution, unclear attribution, and missed opportunities.</p><p className="intro-standout">We connect the pieces so strategy becomes action—and action becomes measurable insight.</p></div></div></section>
+  <section className="section expertise" id="expertise"><div className="container"><div className="section-heading"><div><p className="eyebrow">02 / OUR EXPERTISE</p><h2>One connected<br/><em>growth operation.</em></h2></div><p>Built around the full customer journey. Designed for businesses that need more than disconnected marketing services.</p></div><div className="services-grid">{services.map(s=><article className="service" key={s.number}><span className="service-num">{s.number} / CAPABILITY</span><h3>{s.title}</h3><p className="service-desc">{s.desc}</p><p>{s.copy}</p><ul>{s.items.map(x=><li key={x}>{x}</li>)}</ul></article>)}</div></div></section>
+  <section className="feature" id="system"><div className="container feature-grid"><div><p className="eyebrow light-eyebrow">03 / SIGNATURE ENGAGEMENT</p><h2>The GTM<br/><em>Growth System.</em></h2></div><div className="feature-copy"><p className="large">One strategy. One connected operating model.</p><p>Our signature engagement aligns market intelligence, positioning, launch-ready creative, acquisition infrastructure, and revenue measurement into a practical foundation for growth.</p><div className="feature-list"><div>01 <span>Market strategy & positioning</span></div><div>02 <span>Creative & launch infrastructure</span></div><div>03 <span>Acquisition & conversion systems</span></div><div>04 <span>Measurement & performance visibility</span></div><div>05 <span>Actionable growth roadmap</span></div></div><a className="btn light" href="#contact">Discuss Your Growth System <span>↗</span></a></div></div></section>
+  <section className="section method" id="approach"><div className="container"><div className="section-heading"><div><p className="eyebrow">04 / OUR METHOD</p><h2>Built to launch.<br/><em>Designed to learn.</em></h2></div><p>A disciplined process that connects decisions, delivery, and outcomes—from the first diagnosis to ongoing improvement.</p></div><div className="steps">{steps.map(([n,t,d])=><div className="step" key={n}><span>{n}</span><h3>{t}</h3><p>{d}</p></div>)}</div></div></section>
+  <section className="section work" id="work"><div className="container"><div className="section-heading"><div><p className="eyebrow">05 / SELECTED WORK</p><h2>Real challenges.<br/><em>Connected solutions.</em></h2></div><p>Selected consulting work across market development, acquisition infrastructure, and analytics. Results are described based on documented scope rather than promised growth.</p></div><div className="case-list">{studies.map((s,i)=><article className="case" key={s.title}><div className="case-index">0{i+1} <span>/ CASE STUDY</span></div><div><p className="eyebrow">{s.category}</p><h3>{s.title}</h3><h4>{s.heading}</h4><p>{s.description}</p><p className="case-tags">{s.tags}</p></div><span className="case-arrow" aria-hidden="true">↗</span></article>)}</div></div></section>
+  <section className="about section" id="about"><div className="container about-grid"><div><p className="eyebrow">06 / WHY KM & COMPANY</p><h2>Enterprise rigor.<br/><em>Operator mindset.</em></h2></div><div><p className="large-dark">Strategy alone doesn't deliver results. Neither does technology without a clear commercial purpose.</p><p>KM & Company brings together enterprise measurement experience, hands-on marketing execution, and AI-enabled workflows to build practical growth operations.</p><p>Led by Kalifa Shabazz, a measurement and growth professional with experience across Live Nation Entertainment, Honeywell, consulting, and digital businesses.</p><div className="values"><div><strong>Strategy before software.</strong><span>Start with the business question.</span></div><div><strong>Measurement by design.</strong><span>Build trustworthy signals from the outset.</span></div><div><strong>AI with human judgment.</strong><span>Speed and leverage with strategic oversight.</span></div></div></div></div></section>
+  <section className="contact section" id="contact"><div className="container"><div className="contact-heading"><p className="eyebrow light-eyebrow">07 / START A CONVERSATION</p><h2>Your next stage of growth needs <em>more than another campaign.</em></h2><p>Tell us about your business and what you're working toward. We'll review your inquiry and follow up to discuss the right next step.</p></div><div className="contact-grid"><div className="contact-methods"><p className="eyebrow light-eyebrow">PREFER TO TALK?</p><a className="phone" href="tel:+12132937098">(213) 293-7098 <span>↗</span></a><p>Call us to discuss your project.</p><p className="eyebrow light-eyebrow email-label">OR EMAIL</p><a className="email" href="mailto:info@kmandcompany.com">info@kmandcompany.com ↗</a></div><form className="lead-form" action="https://formsubmit.co/info@kmandcompany.com" method="POST"><input type="hidden" name="_subject" value="New KM & Company website inquiry"/><input type="hidden" name="_captcha" value="true"/><input type="hidden" name="_template" value="table"/><div className="form-row"><label>YOUR NAME <input name="name" type="text" autoComplete="name" required placeholder="Full name"/></label><label>WORK EMAIL <input name="email" type="email" autoComplete="email" required placeholder="you@company.com"/></label></div><div className="form-row"><label>COMPANY <input name="company" type="text" required placeholder="Company name"/></label><label>WEBSITE <input name="website" type="url" placeholder="https://"/></label></div><label>WHAT ARE YOU LOOKING TO BUILD?<select name="service" required defaultValue=""><option value="" disabled>Select an area of focus</option><option>GTM strategy & launch</option><option>GTM Growth System</option><option>Fractional growth support</option><option>Measurement & attribution</option><option>Not sure yet</option></select></label><label>TELL US ABOUT YOUR PROJECT <textarea name="message" required rows={5} placeholder="What are your goals, challenges, and ideal timeline?"/></label><button className="btn submit" type="submit">Send Inquiry <span>↗</span></button><p className="form-note">By submitting, you agree to be contacted about your inquiry. No public pricing or obligation to proceed.</p></form></div></div></section>
+  <footer><div className="container footer-inner"><div><a href="#top" className="wordmark">KM <span>&</span> COMPANY<span className="wordmark-dot">.</span></a><p>From strategy to revenue.</p></div><div><a href="#expertise">Expertise</a><a href="#approach">Approach</a><a href="#work">Work</a><a href="#contact">Contact</a></div><small>© 2026 KM & Company. All rights reserved.</small></div></footer>
+ </main>
 }
