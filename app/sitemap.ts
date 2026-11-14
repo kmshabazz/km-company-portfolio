@@ -1,7 +1,7 @@
 import type { MetadataRoute } from "next";
 
 const baseUrl = "https://www.kmandcompany.com";
-const caseStudySlugs = ["shabazz-seafood", "yippee-tv", "travel-her-way", "kali-luxe"];
+const caseStudySlugs = ["open-enrollment-campaign-2026", "shabazz-seafood", "yippee-tv", "travel-her-way", "kali-luxe"];
 
 export default function sitemap(): MetadataRoute.Sitemap {
  return [
