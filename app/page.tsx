@@ -14,6 +14,12 @@ const steps = [
 ];
 const testimonials: { quote:string; endorsed?:string[]; name:string; role:string; source:string }[] = [
  {
+  "quote": "Kalifa was amazing to work with. She communicated clearly, delivered on timeline, and paid close attention to the details throughout every part of the work. When I followed up with questions, she responded quickly and thoughtfully, and always stayed solutions-oriented. 10/10!",
+  "name": "Upwork client",
+  "role": "GA4 + GTM Event Tracking Specialist",
+  "source": "Upwork · ★ 5.0"
+ },
+ {
   "quote": "Kalifa was amazing! She is very knowledgeable and was a great partner throughout the campaign. I will definitely hire her again.",
   "name": "Upwork client",
   "role": "Digital Media Contractor for Paid Campaign",
