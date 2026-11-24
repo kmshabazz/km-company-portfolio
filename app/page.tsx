@@ -32,13 +32,13 @@ const testimonials: { quote:string; endorsed?:string[]; name:string; role:string
   "source": "LinkedIn recommendation"
  },
  {
-  "quote": "Your expertise has been incredible and I especially appreciate all of the thorough documentation that will be helpful to us as we move forward. Thank you for helping us build a dashboard, reports and documentation that will allow us much deeper insights into our digital presences and allow us to make much more informed decisions about them moving forward.",
+  "quote": "[Kalifa’s] expertise has been incredible and I especially appreciate all of the thorough documentation that will be helpful to us as we move forward. Thank you [Kalifa] for helping us build a dashboard, reports and documentation that will allow us much deeper insights into our digital presences and allow us to make much more informed decisions about them moving forward.",
   "name": "Client stakeholder",
   "role": "Analytics dashboard and reporting project",
   "source": "Client email"
  },
  {
-  "quote": "I really appreciate your help, and your thoroughness and responsiveness over the last two weeks. I’m excited about the progress and appreciate you working through this with us and helping us understand as we’ve had questions through it all.",
+  "quote": "I really appreciate [Kalifa’s] help, and [her] thoroughness and responsiveness over the last two weeks. I’m excited about the progress and appreciate [Kalifa] working through this with us and helping us understand as we’ve had questions through it all.",
   "name": "Client stakeholder",
   "role": "Analytics dashboard and reporting project",
   "source": "Client email"
